@@ -1,0 +1,70 @@
+body {
+  background-image: url('./imges/planeta.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Estilos gerais */
+.App {
+  text-align: center;
+  margin-top: 0; /* Removido o deslocamento negativo */
+}
+
+/* Estilos para a seção de entrada */
+.input {
+  display: flex;
+  flex-direction: column; /* Alinhar elementos verticalmente */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  background-color: #007bff; /* Azul escuro para o cabeçalho */
+  color: white;
+  padding: 20px 0; /* Mais espaço vertical no cabeçalho */
+}
+
+input[type='text'] {
+  padding: 10px;
+  margin: 10px 0; /* Espaçamento uniforme em torno do campo de entrada */
+  border: 1px solid #ccc; /* Adiciona uma borda suave */
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; /* Espaço entre o campo de entrada e o botão */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para a seção de previsão */
+.previsao {
+  background-color: #f0f0f09e;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin: 40px 300px 0px 300px;
+}
+
+.previsao p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* Estilos de plano de fundo */
+.default {
+  background-image: url('./imges/planeta.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
